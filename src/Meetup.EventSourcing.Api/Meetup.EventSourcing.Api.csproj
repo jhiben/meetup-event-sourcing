@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Meetup.EventSourcing.Domain\Meetup.EventSourcing.Domain.csproj" />
+    <ProjectReference Include="..\Meetup.EventSourcing.Infrastructure\Meetup.EventSourcing.Infrastructure.csproj" />
+  </ItemGroup>
+
+
+</Project>
