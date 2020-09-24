@@ -3,16 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetup.EventSourcing.Api", "src\Meetup.EventSourcing.Api\Meetup.EventSourcing.Api.csproj", "{6C3C7D7B-3092-4AF9-8907-214233C3FDEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meetup.EventSourcing.Api", "src\Meetup.EventSourcing.Api\Meetup.EventSourcing.Api.csproj", "{6C3C7D7B-3092-4AF9-8907-214233C3FDEE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{10596BC7-A7A6-48ED-B551-2E0DACC44306}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetup.EventSourcing.Infrastructure", "src\Meetup.EventSourcing.Infrastructure\Meetup.EventSourcing.Infrastructure.csproj", "{4974AD95-5DB6-42DE-B988-A2C4F5C1044F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meetup.EventSourcing.Infrastructure", "src\Meetup.EventSourcing.Infrastructure\Meetup.EventSourcing.Infrastructure.csproj", "{4974AD95-5DB6-42DE-B988-A2C4F5C1044F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetup.EventSourcing.Domain", "src\Meetup.EventSourcing.Domain\Meetup.EventSourcing.Domain.csproj", "{231FD5E2-0A3F-404F-9F03-56A1911894C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meetup.EventSourcing.Domain", "src\Meetup.EventSourcing.Domain\Meetup.EventSourcing.Domain.csproj", "{231FD5E2-0A3F-404F-9F03-56A1911894C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetup.EventSourcing.Functions", "src\Meetup.EventSourcing.Functions\Meetup.EventSourcing.Functions.csproj", "{77A0CEE1-A10F-491F-8411-6A4992A4B24C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{231FD5E2-0A3F-404F-9F03-56A1911894C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{231FD5E2-0A3F-404F-9F03-56A1911894C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{231FD5E2-0A3F-404F-9F03-56A1911894C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A0CEE1-A10F-491F-8411-6A4992A4B24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A0CEE1-A10F-491F-8411-6A4992A4B24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A0CEE1-A10F-491F-8411-6A4992A4B24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A0CEE1-A10F-491F-8411-6A4992A4B24C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
